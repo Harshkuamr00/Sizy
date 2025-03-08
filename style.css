@@ -1,0 +1,59 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+
+.box {
+    background-color: rgba(213, 254, 247, 0.906); 
+    border: 2px solid black; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    text-align: center; 
+}
+
+
+.mode-text {
+    font-weight: 500;
+}
+
+
+.small-mode {
+    color: rgb(87, 206, 166);
+}
+
+.medium-mode {
+    color: rgb(176, 147, 111);
+}
+
+.large-mode {
+    color: blue;
+}
+
+@media (max-width: 767px) { 
+    body {
+        background-color: #e6f7ff; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) { 
+    body {
+        background-color: #fff3cd; 
+    }
+}
+
+@media (min-width: 993px) { 
+    body {
+        background-color: #d4edda;
+    }
+}
